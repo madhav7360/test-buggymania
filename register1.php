@@ -11,7 +11,7 @@ if($temp==true)
 }
 else
 {
- $str=substr_compare("$mtcid","MTC000",0,6,TRUE);
+ $str=substr_compare("$mtcid","MTCM",0,4,TRUE);
  if($str!=0)
  {
    echo "<script>alert('WRONG MTC-ID Try Again');window.location ='login.html';</script>";
